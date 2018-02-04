@@ -26,7 +26,7 @@ public class Ex8_1_dem_so_sinh_vien {
         System.out.print("Danh sách điểm : ");
         for (int j = 0; j < array.length; j++) {
             System.out.print(array[j] + "\t");
-            if (array[j] > 5)
+            if (array[j] >= 5 && array[j] <= 10)
                 count++;
         }
         System.out.print("\nSố lượng sinh viên thi đỗ là " + count + " sinh viên");
