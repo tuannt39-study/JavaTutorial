@@ -25,6 +25,7 @@ public class Ex11_3_DirectoryTree {
                     System.out.println(f.getCanonicalPath());
                     directoryTree(f.getCanonicalPath());
                 }
+                System.out.println("\t");
             }
         }
     }
