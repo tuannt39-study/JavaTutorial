@@ -11,17 +11,14 @@ public class Course {
     public void addStudent(String student) {
         students[numberOfStudents] = student;
         numberOfStudents++;
-
     }
 
     public String[] getStudents() {
         return students;
-
     }
 
     public int getNumberOfStudents() {
         return numberOfStudents;
-
     }
 
     public String getCourseName() {
